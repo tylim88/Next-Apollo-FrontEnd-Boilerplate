@@ -1,1 +1,1 @@
-# Skeleton-Next-Apollo-Front-End
+# Next-Apollo-Front-End-Boilerplate
