@@ -1,1 +1,1 @@
-# Next-Apollo-Front-End-Boilerplate
+# Next-Apollo-FrontEnd-Boilerplate
