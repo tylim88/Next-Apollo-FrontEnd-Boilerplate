@@ -4,60 +4,41 @@
   "description": "next-apollo-frontend-boilerplate",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DineWithMe/Back-End.git"
+    "url": "git+https://github.com/DineWithMe/Front-End.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DineWithMe/Back-End/issues"
+    "url": "https://github.com/DineWithMe/Front-End/issues"
   },
-  "homepage": "https://github.com/DineWithMe/Back-End#readme",
+  "homepage": "https://github.com/DineWithMe/Front-End#readme",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
     "axios": "^0.18.0",
-    "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.18.3",
-    "cookie-parser": "~1.4.3",
-    "cors": "^2.8.5",
-    "debug": "~2.6.9",
-    "dotenv": "^6.1.0",
-    "express": "^4.16.4",
-    "helmet": "^3.14.0",
-    "http-errors": "~1.6.2",
-    "jsonwebtoken": "^8.3.0",
-    "knex": "^0.15.2",
-    "morgan": "^1.9.1",
-    "pg": "^7.6.0",
-    "pug": "2.0.0-beta11",
-    "redis": "^2.8.0"
+    "debug": "^4.1.0",
+    "next": "^7.0.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "tachyons": "^4.11.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.0.1",
-    "babel-preset-env": "^1.7.0",
-    "eslint": "^5.8.0",
+    "enzyme": "^3.7.0",
     "husky": "^1.1.3",
     "jest": "^23.6.0",
-    "loadtest": "^3.0.4",
-    "nodemon": "^1.18.6",
     "prettier": "^1.15.1",
     "pretty-quick": "^1.8.0"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  },
-  "eslint": {
-    "parser": "babel-eslint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
   }
 }

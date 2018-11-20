@@ -1,1 +1,1 @@
-# Next-Apollo-FrontEnd-Boilerplate
+# README
