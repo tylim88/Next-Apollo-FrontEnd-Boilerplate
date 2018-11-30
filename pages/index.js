@@ -1,14 +1,19 @@
-import Head from 'next/head';
-import App from '../src/container/App';
-// import 'tachyons';
-const Index = () => (
-  <div>
-    <Head>
-      <link href="/static/Index.css" rel="stylesheet" />
-      <link href="/static/tachyons.css" rel="stylesheet" />
-    </Head>
-    <App />
-  </div>
-);
+import Head from 'next/head'
+import { Fragment } from 'react'
+import 'tachyons'
 
-export default Index;
+const Index = () => (
+  <Fragment>
+    <Head>
+      <title>My page title</title>
+      <meta
+        name='viewport'
+        content='initial-scale=1.0, width=device-width'
+        key='viewport'
+      />
+    </Head>
+    <p className='ttu'>tachyons successfully imported</p>
+  </Fragment>
+)
+
+export default Index

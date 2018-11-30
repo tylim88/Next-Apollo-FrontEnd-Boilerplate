@@ -1,30 +1,22 @@
 {
-  "name": "next-apollo-frontend-boilerplate",
+  "name": "next-apollo-example",
   "version": "1.0.0",
-  "description": "next-apollo-frontend-boilerplate",
+  "description": "next-apollo-example",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DineWithMe/Front-End.git"
+    "jest": "",
+    "jest-ci": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DineWithMe/Front-End/issues"
-  },
-  "homepage": "https://github.com/DineWithMe/Front-End#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "axios": "^0.18.0",
-    "debug": "^4.1.0",
     "next": "^7.0.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
@@ -40,5 +32,18 @@
     "jest": "^23.6.0",
     "prettier": "^1.15.1",
     "pretty-quick": "^1.8.0"
+  },
+  "prettier": {
+    "eslintIntegration": true,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "trailingComma": "es5",
+    "semi": false,
+    "arrowParens": "always"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
