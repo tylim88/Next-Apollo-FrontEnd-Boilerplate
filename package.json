@@ -22,7 +22,8 @@
     "react": "^16.7.0-alpha.2",
     "react-apollo": "^2.3.2",
     "react-dom": "^16.6.1",
-    "tachyons": "^4.11.1"
+    "tachyons": "^4.11.1",
+    "unstated": "^2.1.1"
   },
   "devDependencies": {
     "enzyme": "^3.7.0",
