@@ -21,7 +21,7 @@ const Index = (props) => {
             />
           </Head>
           <Link href='about'>
-            <button>to page about</button>
+            <button>go to About</button>
           </Link>
           <h1>USD To</h1>
           <Query notifyOnNetworkStatusChange query={getUsdExchangeRate}>

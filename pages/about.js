@@ -11,7 +11,7 @@ const about = (props) => {
         return (
           <Fragment>
             <Link href='./index'>
-              <button>to page index</button>
+              <button>go to Index</button>
             </Link>
             <ExchangeRateList data={exchangeRate.getData()} />
           </Fragment>
