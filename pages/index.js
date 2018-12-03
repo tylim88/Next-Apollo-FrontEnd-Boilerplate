@@ -7,7 +7,7 @@ import { Subscribe } from 'unstated'
 import { dataContainer } from '../src/utils/unstated'
 import ExchangeRateList from '../src/components/ExchangeRateList'
 
-const Index = (props) => {
+const Index = () => {
   return (
     <Subscribe to={[dataContainer]}>
       {(exchangeRate) => (
